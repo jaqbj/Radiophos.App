@@ -11,7 +11,7 @@ The app's source code is kept elsewhere.
 
 | Platform | Get it |
 | --- | --- |
-| macOS 14 or later (Apple silicon and Intel) | `Radiophos-1.0-beta-8.dmg` under Releases |
+| macOS 14 or later (Apple silicon and Intel) | `Radiophos-1.0-beta-8.dmg` under [Releases](https://github.com/jaqbj/Radiophos.App/releases) or in [`releases/`](releases) |
 | iPhone (iOS 17.6 or later) | TestFlight, coming soon |
 | iPad | Later |
 | Windows, Android | Later in the beta |
