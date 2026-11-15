@@ -3,6 +3,11 @@
 First public beta, for **macOS** (download) and **iPhone** (TestFlight, coming soon).
 iPad, Windows and Android follow later in the beta.
 
+## Builds
+
+- **Mac beta 8** (2026-11-15): notarized by Apple, so it opens without "Open Anyway".
+  Otherwise the same as beta 7.
+
 ## What's in it
 
 - **Find stations** — search 50,000+ stations by name, genre or country; filter by region
@@ -33,8 +38,7 @@ iPad, Windows and Android follow later in the beta.
 
 ## Known limits
 
-- **Mac:** the beta isn't notarized yet, so the first launch needs "Open Anyway" (see the
-  readme). A scheduled recording can't wake a sleeping Mac; Radiophos keeps the Mac awake
+- **Mac:** a scheduled recording can't wake a sleeping Mac; Radiophos keeps the Mac awake
   from 10 minutes before if it's awake.
 - **iPhone:** scheduled recordings run only while Radiophos is open or playing; otherwise
   you get a reminder to open it.

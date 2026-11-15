@@ -11,7 +11,7 @@ The app's source code is kept elsewhere.
 
 | Platform | Get it |
 | --- | --- |
-| macOS 14 or later (Apple silicon and Intel) | `Radiophos-1.0-beta-7.dmg` under Releases |
+| macOS 14 or later (Apple silicon and Intel) | `Radiophos-1.0-beta-8.dmg` under Releases |
 | iPhone (iOS 17.6 or later) | TestFlight, coming soon |
 | iPad | Later |
 | Windows, Android | Later in the beta |
@@ -22,11 +22,8 @@ Privacy: [the app collects nothing](PRIVACY.md).
 ## Installing on a Mac
 
 1. Open the dmg and drag Radiophos into Applications.
-2. The beta isn't notarized by Apple yet, so macOS blocks the first launch:
-   - **macOS 15 or later:** open Radiophos once and click Done, then go to System
-     Settings › Privacy & Security, scroll to "Radiophos was blocked…", click
-     **Open Anyway** and confirm.
-   - **macOS 14:** right-click Radiophos in Applications, choose Open, then Open.
+2. Open Radiophos from Applications. It is notarized by Apple, so macOS asks once
+   whether to open an app downloaded from the internet: click Open.
 3. Radiophos lives in the menu bar (top right, by the clock). Open the window from there.
 
 ## Feedback
