@@ -13,8 +13,10 @@ The app's source code is kept elsewhere.
 | --- | --- |
 | macOS 14 or later (Apple silicon and Intel) | `Radiophos-1.0-beta-8.dmg` under [Releases](https://github.com/jaqbj/Radiophos.App/releases) or in [`releases/`](releases) |
 | iPhone (iOS 17.6 or later) | TestFlight, coming soon |
+| Windows 10 (version 2004) or 11, 64-bit | `Radiophos-1.0-beta-1-windows-x64.zip` under [Releases](https://github.com/jaqbj/Radiophos.App/releases) or in [`releases/`](releases) |
+| Android 7 or later, phones | `Radiophos-1.0-beta-1-android-arm64.apk`, same places |
+| Android tablets and older devices | `Radiophos-1.0-beta-1-android-universal.apk` (larger; works on every device) |
 | iPad | Later |
-| Windows, Android | Later in the beta |
 
 What's new and what doesn't work yet: [release notes](RELEASE-NOTES-1.0-beta.md).
 Privacy: [the app collects nothing](PRIVACY.md).
@@ -25,6 +27,26 @@ Privacy: [the app collects nothing](PRIVACY.md).
 2. Open Radiophos from Applications. It is notarized by Apple, so macOS asks once
    whether to open an app downloaded from the internet: click Open.
 3. Radiophos lives in the menu bar (top right, by the clock). Open the window from there.
+
+## Installing on Windows
+
+1. Unzip anywhere (for example Documents\Radiophos) and run `radiophos.exe`.
+2. The app isn't signed yet, so the first time Windows SmartScreen may say "Windows
+   protected your PC": click **More info**, then **Run anyway**.
+3. Closing the window keeps Radiophos in the tray (bottom right, maybe under ^); quit
+   from the tray menu. To remove it, quit and delete the folder (turn off Start at login
+   in Setup first).
+
+## Installing on Android
+
+1. Download the APK on the phone and open it. Android asks to allow installing apps from
+   your browser or file manager: allow it for that app.
+2. Updates install over the previous version and keep your settings. If you had a very
+   early test build (alpha 1 to 3) and Android says the app can't be installed,
+   uninstall the old one first.
+3. Radiophos asks for notifications (playback controls and scheduled recordings) and,
+   the first time you pick Spectrum, Scope or VU, for the microphone: Android needs that
+   permission to let an app read its own sound. Nothing is recorded or sent.
 
 ## Feedback
 
