@@ -1,7 +1,7 @@
 # Radiophos 1.0 beta
 
 First public beta, for **macOS**, **Windows** and **Android** (downloads) and **iPhone**
-(TestFlight, coming soon). iPad follows later.
+(TestFlight: https://testflight.apple.com/join/j44bQsTm). iPad follows later.
 
 ## Builds
 
