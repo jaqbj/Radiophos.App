@@ -5,6 +5,11 @@ First public beta, for **macOS**, **Windows** and **Android** (downloads) and **
 
 ## Builds
 
+- **Mac beta 10** (2026-11-26): small fixes from a design review. Station rows show
+  country and language without stray dots; the sidebar says "Setup"; Setup's choice
+  buttons wrap as whole words; Sleep is a terminal button with a pop-up of times; the
+  keyboard cursor ring in lists shows only after an arrow or Tab key, not on a click.
+  (Build 9 went to TestFlight only.)
 - **Mac beta 8** (2026-11-15): notarized by Apple, so it opens without "Open Anyway".
   Otherwise the same as beta 7.
 - **Windows and Android beta 1** (2026-11-16): first public builds, with the same
